@@ -1,18 +1,33 @@
 <div class="row">
+
   <div class="col-xs-12 col-sm-4">
+
     <div class="list-group">
+
       <a
         href="#"
         class="list-group-item"
         *ngFor="let server of servers">
         {{ server.name }}
       </a>
+
     </div>
+
   </div>
+
   <div class="col-xs-12 col-sm-4">
+
+    <button class = "btn btn-primary"> Reload Page </button>
+
+    <!-- Edit Server Component -->
     <app-edit-server></app-edit-server>
+
     <hr>
+
+    <!-- Server Component -->
     <app-server></app-server>
+
   </div>
+
 </div>
 
