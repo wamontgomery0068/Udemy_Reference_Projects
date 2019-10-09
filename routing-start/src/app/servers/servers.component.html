@@ -5,7 +5,7 @@
     <div class="list-group">
 
       <a
-        [routerLink] = "['/servers', 5, 'edit']"
+        [routerLink] = "['/servers', server.id]"
         [queryParams] = "{allowEdit: '1'}"
         fragment = "loading"
         href="#"
@@ -28,7 +28,7 @@
     <hr>
 
     <!-- Server Component -->
-    <app-server></app-server>
+    <!-- <app-server></app-server> -->
 
   </div>
 
