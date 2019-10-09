@@ -16,15 +16,17 @@ const appRoutes: Routes = [
   // Home Page
   { path: '', component: HomeComponent },
   // Users Page 
-  { path: 'users', component: UsersComponent },
-  // Single User Page
-  { path: 'users/:id/:name', component: UserComponent },
+  { path: 'users', component: UsersComponent, children: [
+    // Single User Page
+    { path: ':id/:name', component: UserComponent },
+  ] },
   // Servers Page 
-  { path: 'servers', component: ServersComponent },
-  // Single Server Page 
-  { path: 'servers/:id', component: ServerComponent }, 
-  // Edit Server Page
-  { path: 'servers/:id/edit', component: EditServerComponent } 
+  { path: 'servers', component: ServersComponent, children: [
+      // Single Server Page 
+    { path: ':id', component: ServerComponent }, 
+    // Edit Server Page
+    { path: ':id/edit', component: EditServerComponent } 
+  ] }
 ];
 
 @NgModule({
