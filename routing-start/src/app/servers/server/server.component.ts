@@ -28,7 +28,7 @@ export class ServerComponent implements OnInit {
 
   // Create an onEdit method the navigates to the edit-server.component
   onEdit() {
-    this.router.navigate(['edit'], {relativeTo: this.route});
+    this.router.navigate(['edit'], {relativeTo: this.route, queryParamsHandling: 'preserve'});
   }
 
 }
