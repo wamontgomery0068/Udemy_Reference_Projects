@@ -19,7 +19,11 @@ const appRoutes: Routes = [
       { path: ':id/:name', component: UserComponent },
     ] },
     // Servers Page 
-    { path: 'servers', canActivate: [AuthGuard], component: ServersComponent, children: [
+    { path: 'servers', 
+      // canActivate: [AuthGuard], 
+      canActivateChild: [AuthGuard],
+      component: ServersComponent, 
+      children: [
         // Single Server Page 
       { path: ':id', component: ServerComponent }, 
       // Edit Server Page
