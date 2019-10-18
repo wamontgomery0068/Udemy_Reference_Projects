@@ -71,5 +71,17 @@ public class Main {
         if((topScore > 90) || (secondTopScore <= 90)) {
             System.out.println("Either or both of the conditions are true.");
         }
+
+        // 37. Assignment Operator VS Equal to Operator -- Code Below
+
+        int newValue = 50;
+        if(newValue == 50) {
+            System.out.println("This is true");
+        }
+
+        boolean isCar = false;
+        if(!isCar) {
+            System.out.println("This is not suppose to happen");
+        }
     }
 }
