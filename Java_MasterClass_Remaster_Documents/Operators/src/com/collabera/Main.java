@@ -80,8 +80,16 @@ public class Main {
         }
 
         boolean isCar = false;
-        if(!isCar) {
+        if(isCar) {
             System.out.println("This is not suppose to happen");
+        }
+
+        // 38. Ternary Operator -- Code Below
+        
+        isCar = true;
+        boolean wasCar = isCar? true : false;
+        if(wasCar) {
+            System.out.println("wasCar is true");
         }
     }
 }
