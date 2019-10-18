@@ -85,11 +85,46 @@ public class Main {
         }
 
         // 38. Ternary Operator -- Code Below
-        
+
         isCar = true;
         boolean wasCar = isCar? true : false;
         if(wasCar) {
             System.out.println("wasCar is true");
+        }
+
+        // 39. Operator Precedence and Operator Challenge
+
+        // 1) Create a double variable with a value of 20.00
+        double myFirstValue = 20.00;
+        System.out.println("myFirstValue = " + myFirstValue);
+
+        // 2) Create a second variable of type double with the value of 80.00
+        double mySecondValue = 80.00;
+        System.out.println("mySecondValue = " + mySecondValue);
+
+        // 3) Add both numbers together and multiply by 100.00
+        double myValueTotal = (myFirstValue + mySecondValue) * 100.00;
+        System.out.println("myValueTotal = " + myValueTotal);
+
+        // 4) Use the remainder operator to figure out what the remainder from the result of the operation
+        // in step 3 and 40.00. We used the modulus or remainder operator on int's in the course, but we can also
+        // also use it on a double.
+        double theRemainder = myValueTotal % 40.00;
+        System.out.println("theRemainder = " + theRemainder);
+
+        // 5) Create a boolean variable that assigns the value true if the remainder in #4 is 0,
+        // or false if its not zero.
+
+        boolean isNoRemainder = (theRemainder == 0) ? true : false;
+
+        // 6) Output the boolean variable
+        System.out.println("isNoRemainder = " + isNoRemainder);
+
+        // 7) Write an if-ten statement that displays a message "Got some remainder" if boolean is
+        // not true. Don't be suprised if you see output for this step, where you might expect it not to show.
+
+        if(!isNoRemainder) {
+            System.out.println("Got some remainder!");
         }
     }
 }
