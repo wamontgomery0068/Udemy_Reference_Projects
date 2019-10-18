@@ -59,9 +59,17 @@ public class Main {
             System.out.println("You got the highest score.");
         }
 
-        int secondScore = 8;
-        if (topScore > secondScore && topScore < 100) {
+
+        // ***** Example of the OR AND Operator *****
+
+        int secondTopScore = 95;
+        if ((topScore > secondTopScore) && (topScore < 100)) {
             System.out.println("Greater than second top score and less than 100");
+
+        }
+
+        if((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the conditions are true.");
         }
     }
 }
