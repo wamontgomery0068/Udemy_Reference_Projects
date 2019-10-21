@@ -23,5 +23,38 @@ public class Main {
             System.out.println("Your final score was " + finalScore);
         }
 
+        // Challenge
+        // ** 1) Print out a second score on the screen with the following
+        // ** 2) score set to 10000
+        // ** 3) levelCompleted set to 8
+        // ** 4) bonus set to 200
+        // ** 5) But make sure the first printout above still displays as well
+
+        // ***** First Approach *****
+
+//        boolean secondGameOver = true;
+//        int secondScore = 1000;
+//        int secondLevelCompleted = 8;
+//        int secondBonus = 200;
+//
+//        if(secondGameOver) {
+//            int finalScore = secondScore + (secondLevelCompleted * secondBonus);
+//            System.out.println("Your final score was " + finalScore);
+//
+//        }
+
+        // ***** Second Approach *****
+
+        score = 1000;
+        levelCompleted = 8;
+        bonus = 200;
+
+        if(gameOver) {
+            int finalScore = score + (levelCompleted * bonus);
+            System.out.println("Your final score was " + finalScore);
+        }
+
+
+
     }
 }
