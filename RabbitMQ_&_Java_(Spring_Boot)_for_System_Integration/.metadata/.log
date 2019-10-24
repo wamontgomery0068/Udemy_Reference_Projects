@@ -1525,3 +1525,75 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2019-10-24 07:48:24.461
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:34:17.701
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PpqUwofB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:34:17.702
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PpqUwofB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:34:17.703
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:34:17.704
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PpqUwofB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:00.965
+!MESSAGE Boot LS startup time from start to initialized: 2391ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:00.987
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fdLlnLaKisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:00.988
+!MESSAGE subscribing to classpath changes: sts4.classpath.fdLlnLaK isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:00.989
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:00.989
+!MESSAGE subsribers = {sts4.classpath.fdLlnLaK=Send Classpath Notifications(1292)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:00.990
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:00.991
+!MESSAGE project rabbitmq-producer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:00.992
+!MESSAGE Preparing classpath changed notification rabbitmq-producer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:00.992
+!MESSAGE project rabbitmq-consumer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:00.992
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:00.993
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:00.993
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fdLlnLaK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:01.032
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:01.036
+!MESSAGE buffering callback sts4.classpath.fdLlnLaK rabbitmq-producer false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:01.036
+!MESSAGE Preparing classpath changed notification rabbitmq-consumer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:01.037
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:01.042
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:01.046
+!MESSAGE buffering callback sts4.classpath.fdLlnLaK rabbitmq-consumer false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:01.046
+!MESSAGE executing callback sts4.classpath.fdLlnLaK 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 08:35:01.079
+!MESSAGE executing callback sts4.classpath.fdLlnLaK SUCCESS [done]
