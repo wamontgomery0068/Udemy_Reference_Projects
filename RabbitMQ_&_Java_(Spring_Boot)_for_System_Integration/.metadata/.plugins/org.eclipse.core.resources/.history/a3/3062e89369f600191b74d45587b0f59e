@@ -13,17 +13,16 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 // @Service
-public class PictureVectorConsumer {
-
+public class PictureFilterConsumer {
+	
 	private ObjectMapper objectMapper = new ObjectMapper();
 	
-	private static final Logger log = LoggerFactory.getLogger(PictureVectorConsumer.class);
+	private static final Logger log = LoggerFactory.getLogger(PictureFilterConsumer.class);
 	
-	@RabbitListener(queues = "q.picture.vector")
+	@RabbitListener(queues = "q.picture.filter")
 	public void listen(String message) throws JsonParseException, JsonMappingException, IOException {
 		var p = objectMapper.readValue(message, Picture.class);
-		log.info("On vector : {}", p.toString());
+		log.info("On filter : {}", p.toString());
 	}
-	
-}
 
+}
