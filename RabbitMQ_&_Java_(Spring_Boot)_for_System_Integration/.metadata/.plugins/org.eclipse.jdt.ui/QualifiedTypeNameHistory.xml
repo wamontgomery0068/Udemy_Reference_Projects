@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.course.rabbitmqproducer.producer.HelloRabbitProducer"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="com.course.rabbitmqproducer.producer.FixedRateProducer"/>
+    <fullyQualifiedTypeName name="org.springframework.scheduling.annotation.Scheduled"/>
+    <fullyQualifiedTypeName name="org.springframework.scheduling.annotation.EnableScheduling"/>
+    <fullyQualifiedTypeName name="com.course.rabbitmqconsumer.consumer.FixedRateConsumer"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.core.JsonProcessingException"/>
+    <fullyQualifiedTypeName name="com.course.rabbitmqproducer.producer.EmployeeJsonProducer"/>
+    <fullyQualifiedTypeName name="com.course.rabbitmqproducer.entity.Employee"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonProperty"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.annotation.JsonSerialize"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="com.course.rabbitmqproducer.json.CustomLocalDateSerializer"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.annotation.JsonDeserialize"/>
+    <fullyQualifiedTypeName name="com.course.rabbitmqconsumer.json.CustomLocalDateDeserializer"/>
+    <fullyQualifiedTypeName name="com.course.rabbitmqconsumer.consumer.EmployeeJsonConsumer"/>
+    <fullyQualifiedTypeName name="com.course.rabbitmqconsumer.entity.Employee"/>
+    <fullyQualifiedTypeName name="com.course.rabbitmqproducer.producer.HumanResourceProducer"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.rabbit.core.RabbitTemplate"/>
+    <fullyQualifiedTypeName name="com.course.rabbitmqproducer.producer.PictureProducer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.course.rabbitmqproducer.entity.Picture"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="com.course.rabbitmqconsumer.entity.Picture"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.rabbit.annotation.RabbitListener"/>
+</qualifiedTypeNameHistroy>

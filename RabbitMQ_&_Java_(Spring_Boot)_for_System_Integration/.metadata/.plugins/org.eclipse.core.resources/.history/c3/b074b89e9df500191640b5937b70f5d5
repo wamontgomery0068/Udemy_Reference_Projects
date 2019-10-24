@@ -1,0 +1,25 @@
+package com.course.rabbitmqproducer.producer;
+
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class FixedRateProducer {
+	
+	@Autowired
+	private RabbitTemplate rabbitTemplate;
+	
+	private int i = 0;
+	
+	// Instructions:
+	// Create a method to increment value of ** i ** and send it as a message to RabbitMQ
+	public void sendMessage() {
+		// increment value of ** i **
+		i++;
+		// displayed the incremented value
+		System.out.println("i is " + i);
+		rabbitTemplate.convertAndSend("course.fixedrate", "Fixed rate " + i);
+	}
+
+}

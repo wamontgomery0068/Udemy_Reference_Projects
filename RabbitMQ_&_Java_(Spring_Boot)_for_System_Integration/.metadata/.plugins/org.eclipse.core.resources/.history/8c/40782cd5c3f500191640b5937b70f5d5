@@ -1,0 +1,5 @@
+package com.course.rabbitmqconsumer.json;
+
+public class CustomLocalDateDeserializer {
+
+}

@@ -1,0 +1,5 @@
+package com.course.rabbitmqconsumer.consumer;
+
+public class PictureImageConsumer {
+
+}

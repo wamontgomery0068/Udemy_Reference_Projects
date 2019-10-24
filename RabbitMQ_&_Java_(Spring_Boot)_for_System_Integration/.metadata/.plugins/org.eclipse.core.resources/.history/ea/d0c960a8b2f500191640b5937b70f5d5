@@ -1,0 +1,5 @@
+package com.course.rabbitmqproducer.entity;
+
+public class Employee {
+
+}

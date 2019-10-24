@@ -1,0 +1,50 @@
+package com.course.rabbitmqproducer.entity;
+
+import java.time.LocalDate;
+
+public class Employee {
+
+	// Employee State
+
+	private String employeeId;
+	private String name;
+	private LocalDate birthDate;
+
+	// Employee Constructor
+
+	public Employee(String employeeId, String name, LocalDate birthDate) {
+		super();
+		this.employeeId = employeeId;
+		this.name = name;
+		this.birthDate = birthDate;
+	}
+
+	// Employee Getters 
+
+	public LocalDate getBirthDate() {
+		return birthDate;
+	}
+
+	public String getEmployeeId() {
+		return employeeId;
+	}
+
+	public String getName() {
+		return name;
+	}
+	
+	// Employee Setters
+
+	public void setBirthDate(LocalDate birthDate) {
+		this.birthDate = birthDate;
+	}
+
+	public void setEmployeeId(String employeeId) {
+		this.employeeId = employeeId;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

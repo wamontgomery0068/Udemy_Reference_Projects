@@ -1,0 +1,5 @@
+package com.course.rabbitmqproducer.json;
+
+public class CustomLocalDateSerializer {
+
+}
