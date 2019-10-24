@@ -1728,3 +1728,78 @@ java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:57:34.262
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jTdtDrGD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:57:34.265
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.jTdtDrGD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:57:34.265
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:57:34.266
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jTdtDrGD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.510
+!MESSAGE Boot LS startup time from start to initialized: 2785ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.511
+!MESSAGE Boot LS startup time from start to initialized: 2784ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.535
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zIRDDmUUisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.536
+!MESSAGE subscribing to classpath changes: sts4.classpath.zIRDDmUU isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.537
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.538
+!MESSAGE subsribers = {sts4.classpath.zIRDDmUU=Send Classpath Notifications(1937)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.538
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.541
+!MESSAGE project rabbitmq-producer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.542
+!MESSAGE Preparing classpath changed notification rabbitmq-producer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.542
+!MESSAGE project rabbitmq-consumer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.543
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.543
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.543
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zIRDDmUU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.552
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.559
+!MESSAGE buffering callback sts4.classpath.zIRDDmUU rabbitmq-producer false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.559
+!MESSAGE Preparing classpath changed notification rabbitmq-consumer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.559
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.564
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.569
+!MESSAGE buffering callback sts4.classpath.zIRDDmUU rabbitmq-consumer false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.570
+!MESSAGE executing callback sts4.classpath.zIRDDmUU 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.595
+!MESSAGE executing callback sts4.classpath.zIRDDmUU SUCCESS [done]
