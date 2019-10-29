@@ -11,8 +11,18 @@
             type="text"
             id="username"
             formControlName = "username"
-            class="form-control">
+            class="form-control"
+          >
+
+          <!-- changed code below -->
+
+          <span
+            *ngIf = "!signupForm.get('username').valid && signupForm.get('username').touched"
+            class = "help-block" 
+          > Please enter a valid username! </span>
+
         </div>
+
         <div class="form-group">
           <label for="email">email</label>
             <!-- Added the formsControlName directive -->
@@ -20,8 +30,18 @@
             type="text"
             id="email"
             formControlName = "email"
-            class="form-control">
+            class="form-control"
+          >
+
+          <!-- changed code below -->
+
+          <span
+          *ngIf = "!signupForm.get('email').valid && signupForm.get('email').touched"
+          class = "help-block" 
+          > Please enter a valid email! </span>
+
         </div>
+
         <div class="radio" *ngFor="let gender of genders">
           <label>
             <!-- Added the formsControlName directive -->
@@ -33,7 +53,14 @@
             {{ gender }} 
           </label>
         </div>
+
+        <span
+        *ngIf = "!signupForm.valid && signupForm.touched"
+        class = "help-block" 
+        > Please enter a valid data! </span>
+
         <button class="btn btn-primary" type="submit">Submit</button>
+
       </form>
     </div>
   </div>
