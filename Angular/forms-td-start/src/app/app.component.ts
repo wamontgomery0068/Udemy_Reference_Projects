@@ -17,13 +17,24 @@ export class AppComponent {
   genders = ['male','female'];
 
   suggestUserName() {
-    const suggestedName = 'Superuser';
-  }
+    const suggestedName = 'GreenArrow0056';
+    // change made here
+    // this.signupForm.setValue({
+    //   userData: {
+    //     username: suggestedName,
+    //     email: ''
+    //   },
+    //   secret: 'pet',
+    //   questionAnswer: '',
+    //   gender: 'male'
+    // });
 
-  // This should be triggered whenever the form is submitted by the user
-  // onSubmit(form: NgForm) {
-  //   console.log(form);
-  // }
+    this.signupForm.form.patchValue({
+      userData: {
+        username: suggestedName
+      }
+    });
+  }
 
   onSubmit() {
     console.log(this.signupForm);
