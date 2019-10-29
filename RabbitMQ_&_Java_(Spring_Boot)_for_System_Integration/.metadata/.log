@@ -1803,3 +1803,15 @@ java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 11:59:43.595
 !MESSAGE executing callback sts4.classpath.zIRDDmUU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-25 10:28:13.838
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zIRDDmUU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-25 10:28:13.841
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zIRDDmUU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-25 10:28:13.841
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-25 10:28:13.842
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zIRDDmUU => OK
