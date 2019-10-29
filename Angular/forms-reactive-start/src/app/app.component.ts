@@ -19,4 +19,12 @@ export class AppComponent implements OnInit {
     });
   }
 
+  // Create an onSubmit()
+  onSubmit() {
+    
+    // Test to see if the data is registering
+    console.log(this.signupForm);
+
+  }
+
 }
