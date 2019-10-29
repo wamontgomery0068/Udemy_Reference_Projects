@@ -10,11 +10,23 @@ export class AppComponent {
   @ViewChild('f', {static: false}) signupForm: NgForm;
   defaultQuestion = 'pet';
 
-  // change made here
+  // changes made below
   answer = '';
 
-  // change made here
+  // changes made below
   genders = ['male','female'];
+
+  // changes made below
+  user = {
+    username: '',
+    email: '',
+    secretQuestion: '',
+    answer: '',
+    gender: ''
+  }
+
+  // changes made below
+  submitted = false;
 
   suggestUserName() {
     const suggestedName = 'GreenArrow0056';
@@ -37,7 +49,13 @@ export class AppComponent {
   }
 
   onSubmit() {
-    console.log(this.signupForm);
+    // changes made below
+    this.submitted = true;
+    this.user.username = this.signupForm.value.userData.username;
+    this.user.email = this.signupForm.value.userData.email;
+    this.user.secretQuestion = this.signupForm.value.secret;
+    this.user.answer = this.signupForm.value.questionAnswer;
+    this.user.gender = this.signupForm.value.gender;
   }
 
 }
