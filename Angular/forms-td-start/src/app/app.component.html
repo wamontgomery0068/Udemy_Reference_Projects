@@ -43,6 +43,22 @@
           </select>
         </div>
 
+        <!-- change made here -->
+        <div class = "form-group">
+
+          <textarea 
+            name = "questionAnswer" 
+            rows = "3"
+            class = "form-control"
+            [(ngModel)] = "answer" 
+          ></textarea>
+
+        </div>
+
+        <!-- change made here -->
+
+        <p> Your reply: {{ answer }} </p>
+
         <button 
           class="btn btn-primary" 
           type="submit"
