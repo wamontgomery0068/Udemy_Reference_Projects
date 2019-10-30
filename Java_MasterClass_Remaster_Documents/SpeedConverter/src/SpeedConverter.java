@@ -16,4 +16,25 @@ public class SpeedConverter {
         return Math.round(kilometersPerHour / 1.609);
 
     }
+
+    // ** Instructions **
+    // -- Write another method called ** printConversion ** and ** 1 parameter ** of ** type double **
+    // -- with the name ** kilometersPerHour **.
+    // -- This method should ** not return anything (void) ** and it needs to ** calculate milesPerHour ** from the
+    // -- ** kilometersPerHour ** parameter.
+    // -- Then it needs to print a message in the form ""
+
+    public static void printConversion (double kilometersPerHour) {
+
+        // Conditional Statement
+        if(kilometersPerHour < 0 ) {
+            System.out.println("Invalid Value");
+        } else {
+            // Create a new variable and assign it to ** toMilesPerHour ** method
+            long milesPerHour = toMilesPerHour(kilometersPerHour);
+            System.out.println(kilometersPerHour + " km/h = " + milesPerHour + " mi/h");
+        }
+    }
+
+
 }
